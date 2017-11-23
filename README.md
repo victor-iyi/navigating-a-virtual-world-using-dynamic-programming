@@ -1,10 +1,10 @@
 # navigating-a-virtual-world-using-dynamic-programming
 
-## by _Victor I. Afolabi_
+_by Victor I. Afolabi_
 
 
 ## Table of contents
-- Markov Decision Process (MDP)
+- [Markov Decision Process (MDP)](#markov-decision-process-mdp)
   * state
   * action
   * reward
@@ -12,9 +12,11 @@
   * policy
   * the bellmans equation
 
-- Model-Based Reinforcement Learning
-  * value iteration
-  * policy iteration
+- [Model-Based Reinforcement Learning](#model-based-reinforcement-learning)
+  * [value iteration](#value-iteration)
+  * [policy iteration](#policy-iteration)
+
+___
 
 ## Markov Decision Process (MDP)
 
@@ -61,6 +63,8 @@ repeat until change in values is sufficently small {
 - The algorithm initializes `V(s)` to arbitrary random values.
 - It repeatedly updates `Q(s,a)` & `V(s)` values until they converge.
 - Value iteration is guaranteed to converge to optimal values.
+
+___
 
 ## Policy Iteration
 
