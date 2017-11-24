@@ -4,6 +4,7 @@ _by Victor I. Afolabi_
 
 
 ## Table of contents
+
 - [Markov Decision Process (MDP)](#markov-decision-process-mdp)
   * state
   * action
